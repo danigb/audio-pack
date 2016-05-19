@@ -1,0 +1,49 @@
+{
+  "name": "MRK-2",
+  "description": "Maestro Rhythm King MRK-2",
+  "repository": "http://danigb.github.io/audio-pack/published/MRK-2",
+  "source": "http://www.submodern.com/slowburn/?p=736",
+  "license": "Public Domain",
+  "samples": {
+    "block": {
+      "file": "block.wav",
+      "size": 11750
+    },
+    "bongo": {
+      "file": "bongo.wav",
+      "size": 8598
+    },
+    "clave": {
+      "file": "clave.wav",
+      "size": 12164
+    },
+    "cymball-long": {
+      "file": "cymball-long.wav",
+      "size": 80156
+    },
+    "cymball-short": {
+      "file": "cymball-short.wav",
+      "size": 20872
+    },
+    "hihat-closed": {
+      "file": "hihat-closed.wav",
+      "size": 29440
+    },
+    "hihat-open": {
+      "file": "hihat-open.wav",
+      "size": 131434
+    },
+    "kick": {
+      "file": "kick.wav",
+      "size": 12306
+    },
+    "snare": {
+      "file": "snare.wav",
+      "size": 17524
+    },
+    "tom": {
+      "file": "tom.wav",
+      "size": 15274
+    }
+  }
+}

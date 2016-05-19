@@ -1,0 +1,73 @@
+{
+  "name": "TR-505",
+  "description": "Roland TR-505",
+  "repository": "http://danigb.github.io/audio-pack/published/TR-505",
+  "source": "http://www.progsounds.com/downloads/progsounds-roland-tr-505-samples-pack",
+  "license": "Public Domain",
+  "samples": {
+    "tr505-clap": {
+      "file": "tr505-clap.wav",
+      "size": 22344
+    },
+    "tr505-conga-h": {
+      "file": "tr505-conga-h.wav",
+      "size": 13750
+    },
+    "tr505-conga-l": {
+      "file": "tr505-conga-l.wav",
+      "size": 14576
+    },
+    "tr505-cowb-h": {
+      "file": "tr505-cowb-h.wav",
+      "size": 23876
+    },
+    "tr505-cowb-l": {
+      "file": "tr505-cowb-l.wav",
+      "size": 14922
+    },
+    "tr505-crash": {
+      "file": "tr505-crash.wav",
+      "size": 114510
+    },
+    "tr505-hihat-closed": {
+      "file": "tr505-hihat-closed.wav",
+      "size": 10538
+    },
+    "tr505-hihat-open": {
+      "file": "tr505-hihat-open.wav",
+      "size": 32146
+    },
+    "tr505-kick": {
+      "file": "tr505-kick.wav",
+      "size": 12600
+    },
+    "tr505-ride": {
+      "file": "tr505-ride.wav",
+      "size": 61470
+    },
+    "tr505-rim": {
+      "file": "tr505-rim.wav",
+      "size": 6982
+    },
+    "tr505-snare": {
+      "file": "tr505-snare.wav",
+      "size": 14766
+    },
+    "tr505-timbal": {
+      "file": "tr505-timbal.wav",
+      "size": 29432
+    },
+    "tr505-tom-h": {
+      "file": "tr505-tom-h.wav",
+      "size": 29596
+    },
+    "tr505-tom-l": {
+      "file": "tr505-tom-l.wav",
+      "size": 28758
+    },
+    "tr505-tom-m": {
+      "file": "tr505-tom-m.wav",
+      "size": 29366
+    }
+  }
+}

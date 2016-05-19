@@ -1,0 +1,135 @@
+{
+  "name": "LM-2",
+  "description": "LinnDrum LM-2",
+  "repository": "http://danigb.github.io/audio-pack/published/LM-2",
+  "source": "http://machines.hyperreal.org/manufacturers/Linn/LinnDrum/",
+  "license": "Public Domain",
+  "player": {
+    "adsr": [
+      0.1,
+      2,
+      1,
+      0
+    ],
+    "filter": 500,
+    "gain": 0.7
+  },
+  "samples": {
+    "cabasa": {
+      "file": "cabasa.wav",
+      "size": 7174
+    },
+    "clap": {
+      "file": "clap.wav",
+      "size": 17064
+    },
+    "conga-h": {
+      "file": "conga-h.wav",
+      "size": 15554
+    },
+    "conga-hh": {
+      "file": "conga-hh.wav",
+      "size": 9900
+    },
+    "conga-l": {
+      "file": "conga-l.wav",
+      "size": 40344
+    },
+    "conga-ll": {
+      "file": "conga-ll.wav",
+      "size": 61336
+    },
+    "conga-lll": {
+      "file": "conga-lll.wav",
+      "size": 83814
+    },
+    "conga-m": {
+      "file": "conga-m.wav",
+      "size": 24354
+    },
+    "cowb": {
+      "file": "cowb.wav",
+      "size": 15674
+    },
+    "crash": {
+      "file": "crash.wav",
+      "size": 109012
+    },
+    "hihat-closed-long": {
+      "file": "hihat-closed-long.wav",
+      "size": 16554
+    },
+    "hihat-closed-short": {
+      "file": "hihat-closed-short.wav",
+      "size": 4550
+    },
+    "hihat-closed": {
+      "file": "hihat-closed.wav",
+      "size": 10230
+    },
+    "hihat-open": {
+      "file": "hihat-open.wav",
+      "size": 54302
+    },
+    "kick-alt": {
+      "file": "kick-alt.wav",
+      "size": 10486
+    },
+    "kick": {
+      "file": "kick.wav",
+      "size": 18090
+    },
+    "ride": {
+      "file": "ride.wav",
+      "size": 111852
+    },
+    "snare-h": {
+      "file": "snare-h.wav",
+      "size": 7696
+    },
+    "snare-l": {
+      "file": "snare-l.wav",
+      "size": 19502
+    },
+    "snare-m": {
+      "file": "snare-m.wav",
+      "size": 12444
+    },
+    "stick-h": {
+      "file": "stick-h.wav",
+      "size": 5862
+    },
+    "stick-l": {
+      "file": "stick-l.wav",
+      "size": 19276
+    },
+    "stick-m": {
+      "file": "stick-m.wav",
+      "size": 9600
+    },
+    "tamb": {
+      "file": "tamb.wav",
+      "size": 14150
+    },
+    "tom-h": {
+      "file": "tom-h.wav",
+      "size": 26032
+    },
+    "tom-hh": {
+      "file": "tom-hh.wav",
+      "size": 20774
+    },
+    "tom-l": {
+      "file": "tom-l.wav",
+      "size": 54778
+    },
+    "tom-ll": {
+      "file": "tom-ll.wav",
+      "size": 80082
+    },
+    "tom-m": {
+      "file": "tom-m.wav",
+      "size": 36078
+    }
+  }
+}

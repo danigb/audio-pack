@@ -4,22 +4,74 @@
   "source": "http://www.boxedear.com/free.html",
   "license": "Public Domain",
   "samples": {
-    "bongo-h": "bongo-h.wav",
-    "bongo-l": "bongo-l.wav",
-    "conga-l": "conga-l.wav",
-    "cowbell": "cowbell.wav",
-    "cymbal": "cymbal.wav",
-    "guiro-long": "guiro-long.wav",
-    "guiro-short": "guiro-short.wav",
-    "hihat-accent": "hihat-accent.wav",
-    "hihat-metal": "hihat-metal.wav",
-    "hihat": "hihat.wav",
-    "kick-accent": "kick-accent.wav",
-    "kick": "kick.wav",
-    "rim": "rim.wav",
-    "snare-accent": "snare-accent.wav",
-    "snare": "snare.wav",
-    "tamb-long": "tamb-long.wav",
-    "tamb-short": "tamb-short.wav"
-  }
+    "bongo-h": {
+      "file": "bongo-h.wav",
+      "size": 18644
+    },
+    "bongo-l": {
+      "file": "bongo-l.wav",
+      "size": 19520
+    },
+    "conga-l": {
+      "file": "conga-l.wav",
+      "size": 60776
+    },
+    "cowbell": {
+      "file": "cowbell.wav",
+      "size": 23052
+    },
+    "cymbal": {
+      "file": "cymbal.wav",
+      "size": 90720
+    },
+    "guiro-long": {
+      "file": "guiro-long.wav",
+      "size": 133608
+    },
+    "guiro-short": {
+      "file": "guiro-short.wav",
+      "size": 63642
+    },
+    "hihat-accent": {
+      "file": "hihat-accent.wav",
+      "size": 7568
+    },
+    "hihat-metal": {
+      "file": "hihat-metal.wav",
+      "size": 21732
+    },
+    "hihat": {
+      "file": "hihat.wav",
+      "size": 5436
+    },
+    "kick-accent": {
+      "file": "kick-accent.wav",
+      "size": 54756
+    },
+    "kick": {
+      "file": "kick.wav",
+      "size": 60378
+    },
+    "rim": {
+      "file": "rim.wav",
+      "size": 7314
+    },
+    "snare-accent": {
+      "file": "snare-accent.wav",
+      "size": 37652
+    },
+    "snare": {
+      "file": "snare.wav",
+      "size": 32090
+    },
+    "tamb-long": {
+      "file": "tamb-long.wav",
+      "size": 46796
+    },
+    "tamb-short": {
+      "file": "tamb-short.wav",
+      "size": 41892
+    }
+  },
+  "repository": "http://danigb.github.io/audio-pack/published/CR-78"
 }
