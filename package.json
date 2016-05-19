@@ -1,0 +1,22 @@
+{
+  "name": "audio-pack",
+  "version": "0.2.0",
+  "description": "An audio sample packager",
+  "main": "lib/index.js",
+  "repository": "https://github.com/danigb/audio-pack",
+  "keywords": [
+    "audio",
+    "pack"
+  ],
+  "author": "danigb <danigb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/audio-pack/issues"
+  },
+  "bin": {
+    "audiopack": "./bin/audiopack"
+  },
+  "dependencies": {
+    "yargs": "^3.31.0"
+  }
+}

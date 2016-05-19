@@ -1,0 +1,59 @@
+#!/usr/bin/env node
+
+var fs = require('fs')
+var path = require('path')
+var stream = require('stream')
+var pack = require('../')
+
+var argv = require('yargs')
+  .usage('audiopack <command> [path]')
+  .command('build', 'Build audio pack')
+  .command('init', 'Init audio pack folder')
+  .demand(1)
+  .help('h').alias('h', 'help')
+  .argv
+
+console.log(argv)
+function run (commands, argv) {
+  var cmd, dest
+
+  if (argv._.length === 0) {
+    cmd = 'build'
+    dest = '.'
+  } else if (argv._.length === 1) {
+    if (commands[argv._[0]]) {
+      cmd = argv._[0]
+      dest = '.'
+    } else {
+      cmd = 'build'
+      dest = argv._[0]
+    }
+  } else {
+    cmd = argv._[0]
+    dest = argv._[1]
+  }
+
+  var cwd = process.cwd()
+  console.log('Command', cmd, cwd)
+  commands[cmd](cwd, dest, function (err) {
+    if (err) console.log(err)
+  })
+}
+
+var COMMANDS = {
+  init: function (cwd, dest, done) {
+    var p = path.join(cwd, dest)
+    console.log('Init: ', dest, p, path.basename(p))
+    done()
+  },
+  build: function (cwd, dest, done) {
+    fs.readFile(path.join(cwd, dest, 'instrument.json'), function (err, buffer) {
+      if (err) return done(Error("Can't load instrument.json file from " + dest))
+      var config = JSON.parse(buffer)
+      console.log(config)
+      done()
+    })
+  }
+}
+
+run(COMMANDS, argv)
