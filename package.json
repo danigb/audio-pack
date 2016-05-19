@@ -17,6 +17,7 @@
     "audiopack": "./bin/audiopack"
   },
   "dependencies": {
+    "handlebars": "^4.0.5",
     "metalsmith": "^2.1.0",
     "yargs": "^3.32.0"
   }
