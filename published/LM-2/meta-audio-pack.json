@@ -1,10 +1,9 @@
 {
   "name": "LM-2",
   "description": "LinnDrum LM-2",
-  "repository": "http://danigb.github.io/audio-pack/published/LM-2",
   "source": "http://machines.hyperreal.org/manufacturers/Linn/LinnDrum/",
   "license": "Public Domain",
-  "player": {
+  "preset": {
     "adsr": [
       0.1,
       2,
@@ -131,5 +130,7 @@
       "file": "tom-m.wav",
       "size": 36078
     }
-  }
+  },
+  "readme": "\n\n![LM-2](http://pictures1.kyozou.com/pictures/_23/22265/22264248.jpg)\n\nThese are 44.1 Khz/16 Bit samples of the LinnDrum. The Lin is fitted with the standard EPROMs except for the conga and the Tom.\n\nThese samples are brought to you by majortom@muc.de\n",
+  "repository": "http://danigb.github.io/audio-pack/published/LM-2"
 }

@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8"/>
   <title>Audio Pack</title>
-  <link rel="stylesheet" href="../../assets/tufte.css"/>
+  <link rel="stylesheet" href="../assets/tufte.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -12,6 +12,9 @@
     {{#packs}}
       <section>
         <a href="{{name}}"><h3>{{description}}</h3></a>
+        {{{ readme }}}
+
+        <a href="{{name}}">Listen to it</a>
       </section>
     {{/packs}}
   </article>

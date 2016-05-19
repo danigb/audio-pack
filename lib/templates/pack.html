@@ -8,7 +8,19 @@
 
 <body>
   <article>
+    <a href="../">&larr; Back</a>
     <h1 id="pack-name">{{ name }}</h1>
     <p class="subtitle">{{ description }}</p>
+    <section>
+      {{{ readme }}}
+    </section>
+    <section>
+      <ul class="plain">
+        <li><b>license<br></b> <span class="small">{{ license }}</span></li>
+        <li><b>source<br></b> <a href="{{source}}"><span class="code small">{{ source }}</span></a></li>
+        <li><b>meta<br></b> <a href="{{metaUrl}}"><span class="code small">{{ metaUrl }}</span></a></li>
+        <li><b>audio<br></b> <a href="{{audioUrl}}"><span class="code small">{{ audioUrl }}</span></a></li>
+      </ul>
+    </section>
   </article>
 </body>

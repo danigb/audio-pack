@@ -87,6 +87,8 @@ section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
 p, ol, ul { font-size: 1.1rem; }
+ul.plain { padding: 0; }
+ul.plain li { list-style: none; list-style-position: outside;}
 
 p { line-height: 2rem;
     margin-top: 1.4rem;
@@ -157,7 +159,7 @@ a:link { text-decoration: none;
          background-repeat: no-repeat, no-repeat, repeat-x;
          text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
          background-position: 0% 93%, 100% 93%, 0% 93%; }
-
+a.noline { background: none; }
 @media screen and (-webkit-min-device-pixel-ratio: 0) { a:link { background-position-y: 87%, 87%, 87%; } }
 
 a:link::selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
@@ -225,6 +227,7 @@ div.table-wrapper { overflow-x: auto;
 .code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
         font-size: 1.125rem;
         line-height: 1.6; }
+.code.small { font-size: 0.9rem; }
 
 h1 .code, h2 .code, h3 .code { font-size: 0.80em; }
 
