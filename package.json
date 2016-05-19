@@ -17,6 +17,8 @@
     "audiopack": "./bin/audiopack"
   },
   "dependencies": {
-    "yargs": "^3.31.0"
+    "map-values": "^1.0.1",
+    "mkdirp": "^0.5.1",
+    "yargs": "^3.32.0"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "name": "CR-78",
+  "description": "Roland CompuRythm CR-78",
+  "source": "http://www.boxedear.com/free.html",
+  "license": "Public Domain",
+  "samples": {
+    "bongo-h": "bongo-h.wav",
+    "bongo-l": "bongo-l.wav",
+    "conga-l": "conga-l.wav",
+    "cowbell": "cowbell.wav",
+    "cymbal": "cymbal.wav",
+    "guiro-long": "guiro-long.wav",
+    "guiro-short": "guiro-short.wav",
+    "hihat-accent": "hihat-accent.wav",
+    "hihat-metal": "hihat-metal.wav",
+    "hihat": "hihat.wav",
+    "kick-accent": "kick-accent.wav",
+    "kick": "kick.wav",
+    "rim": "rim.wav",
+    "snare-accent": "snare-accent.wav",
+    "snare": "snare.wav",
+    "tamb-long": "tamb-long.wav",
+    "tamb-short": "tamb-short.wav"
+  }
+}
