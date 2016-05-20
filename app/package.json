@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify index.js -o ../assets/app.js"
+  },
+  "dependencies": {
+    "audio-loader": "^0.4.0",
+    "snabbdom": "^0.5.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.7.0"
+  }
+}

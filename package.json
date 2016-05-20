@@ -4,7 +4,8 @@
   "description": "An audio sample packager",
   "main": "lib/index.js",
   "scripts": {
-    "pack": "./pack"
+    "pack": "./pack",
+    "start": "npm run pack && http-server"
   },
   "repository": "https://github.com/danigb/audio-pack",
   "keywords": [

@@ -1,0 +1,4 @@
+
+.samples { width: 100%; overflow: hidden; }
+.samples .sample { float: left; background-color: #efefef; border-radius: 2px;
+  color: white; margin: 0 0.5em 0.2em 0; padding: 0.1em 0.5em; }

@@ -3,6 +3,7 @@
   <meta charset="utf-8"/>
   <title>{{ name }}</title>
   <link rel="stylesheet" href="../../assets/tufte.css"/>
+  <link rel="stylesheet" href="../../assets/app.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -14,6 +15,7 @@
     <section>
       {{{ readme }}}
     </section>
+    <div id="app"></div>
     <section>
       <ul class="plain">
         <li><b>license<br></b> <span class="small">{{ license }}</span></li>
@@ -23,4 +25,8 @@
       </ul>
     </section>
   </article>
+  <script type="text/javascript">
+    window.PackInfo = {{{ self }}};
+  </script>
+  <script src="../../assets/app.js"></script>
 </body>
